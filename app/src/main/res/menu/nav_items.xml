@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="ListView" />
+    <item
+        android:id="@+id/nav_book"
+        android:icon="@drawable/ic_book"
+        android:title="Fichero" />
+    <item
+        android:id="@+id/nav_reload"
+        android:icon="@drawable/ic_reload"
+        android:title="Menu" />
+</menu>

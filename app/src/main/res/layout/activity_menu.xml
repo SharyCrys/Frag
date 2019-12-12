@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_menu"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="¡Bienvenido al layout con un menu!"
+        android:textSize="30dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Con el primer botón podrás cambiar el color al lorem impsum. Con el segundo, volver al menu principal. "
+        android:textSize="16dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/lorem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et magna ultrices, fringilla tortor ut, rhoncus magna. Nulla non justo ex. Donec at lorem ipsum. Donec finibus mi non quam consequat, sed porta odio luctus. In vel libero at nulla imperdiet porttitor eget et nibh. Sed tellus massa, euismod sit amet vehicula in, convallis a orci. Curabitur porta auctor purus vitae mattis. Vivamus tempus odio eu dapibus egestas."
+
+
+        android:textSize="14sp" />
+
+</LinearLayout>
